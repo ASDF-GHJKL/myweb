@@ -1,0 +1,276 @@
+body{
+    background-color: rgb(204, 204, 204);
+    font-family: "Microsoft YaHei UI";
+}
+#wrapper>header{
+    background-color: rgb(32, 245, 192);
+    width: 100%;
+    height: 70px;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+}
+#wrapper>header img{
+    height: 65px;
+    padding: 2px 20px;
+}
+#wrapper>header>h1{
+    color:white;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -moz-box-algin:center;
+    -webkit-box-align:center;
+    margin:auto;
+    cursor: pointer;
+}
+#wrapper>header>h1:hover{
+    transform:translatex(-30px);
+    transition-duration:1s;
+}
+#wrapper>header>h1 img{
+    height: 65px;
+}
+/*导航栏*/
+#wrapper>nav{
+    background-color: black;
+    height: 50px;
+    cursor: default;
+}
+#wrapper>nav ul{
+    max-width: 1000px;
+    margin: auto;
+    text-align: left;
+}
+#wrapper>nav li{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+#wrapper>nav li:hover{
+    background-color: gray;
+}
+#wrapper>nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+/*正文模块*/
+#wrapper>#container{
+    /*background-color: green;*/
+    width: 1000px;
+    height: 857px;
+    margin: auto;
+}
+#wrapper>#container>#ad{
+    background-color: white;
+    height: 30px;
+    /* width: 70%; */
+    cursor: default;
+}
+/* #wrapper>#container>#ad img{
+    float: left;
+    padding: 8px 16px;
+} */
+#wrapper>#container>#ad>marquee{
+    color: black;
+    margin: 4px;
+}
+#wrapper>#container>#pics{
+    background-color: white;
+    height: 200px;
+    width: 70%;
+    margin-top: 8px;
+}
+/*周排行*/
+#wrapper>#container>#weekrank{
+    background-color: white;
+    height: 120px;
+    width: 70%;
+    margin-top: 8px;
+}
+#wrapper>#container>#weekrank h4{
+    padding: 10px;
+    cursor: default;
+    color: orange;
+}
+#wrapper>#container>#weekrank a{
+    text-decoration: none;
+}
+#wrapper>#container>#weekrank li{
+    display: block;
+    padding: 2px 30px;
+    cursor: default;
+    color: darkturquoise;
+}
+#wrapper>#container>#weekrank li:hover{
+    background-color: #c2c2c2;
+}
+/*文章*/
+#wrapper>#container>#article{
+    background-color: white;
+    height: 100px;
+    width: 70%;
+    margin-top: 8px;
+}
+#wrapper>#container>#article h4{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+#wrapper>#container>#article p{
+    padding: 4px 120px;
+    font-size: 15px;
+    cursor: default;
+}
+#wrapper>#container>#article img{
+    width: 70px;
+    padding: 2px 15px;
+    float: left;
+    cursor: pointer;
+}
+#wrapper>#container>#article2{
+    background-color: white;
+    height: 100px;
+    width: 70%;
+    margin-top: 8px;
+}
+#wrapper>#container>#article2 h4{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+#wrapper>#container>#article2 p{
+    padding: 4px 120px;
+    font-size: 15px;
+    cursor: default;
+}
+#wrapper>#container>#article2 img{
+    width: 70px;
+    padding: 2px 15px;
+    float: left;
+    cursor: pointer;
+}
+#wrapper>#container>#article3{
+    background-color: white;
+    height: 100px;
+    width: 70%;
+    margin-top: 8px;
+}
+#wrapper>#container>#article3 h4{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+#wrapper>#container>#article3 p{
+    padding: 4px 120px;
+    font-size: 15px;
+    cursor: default;
+}
+#wrapper>#container>#article3 img{
+    width: 70px;
+    padding: 2px 15px;
+    float: left;
+    cursor: pointer;
+}
+#wrapper>#container>#article4{
+    background-color: white;
+    height: 100px;
+    width: 70%;
+    margin-top: 8px;
+}
+#wrapper>#container>#article4 h4{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+#wrapper>#container>#article4 p{
+    padding: 4px 120px;
+    font-size: 15px;
+    cursor: default;
+}
+#wrapper>#container>#article4 img{
+    width: 70px;
+    padding: 2px 15px;
+    float: left;
+    cursor: pointer;
+}
+#wrapper>#container>#more{
+    background-color: white;
+    height: 40px;
+    width: 70%;
+    margin-top: 8px;
+    line-height: 40px;
+}
+#wrapper>#container>#more button{
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: gainsboro;
+    padding: 5px 10px;
+}
+#wrapper>#container>#more{
+    text-align: center;
+}
+#wrapper>#container>#right{
+    background-color: white;
+    float: right;
+    height: 50px;
+    width: 292px;
+    margin-top: 8px;
+}
+#wrapper>#container>#right img{
+    padding: 9px;
+}
+#wrapper>#container>#right2{
+    float: right;
+    background-color: white;
+    width: 292px;
+    height: 100px;
+    margin-top: -142px;
+}
+#wrapper>#container>#right2>h4{
+    padding: 10px 15px;
+    cursor: default;
+    color: deepskyblue;
+}
+#wrapper>#container>#right2>ul{
+    padding: 7px 30px;
+}
+#wrapper>#container>#right3{
+    background-color: white;
+    float: right;
+    height: 180px;
+    width: 292px;
+    margin-top: -34px;
+}
+#wrapper>#container>#right3>h4{
+    padding: 10px 15px;
+    cursor: default;
+    color: pink;
+}
+#wrapper>#container>#right4{
+    background-color: white;
+    float: right;
+    height: 300px;
+    width: 292px;
+    margin-top: -454px;
+}
+#wrapper>#container>#right4>h4{
+    padding: 10px 15px;
+    cursor: default;
+    color: skyblue;
+}
+#wrapper>#container>#right4>#content>table{
+    margin: 8px 18px;
+}
+/*版权模块*/
+#wrapper>footer{
+    background-color: black;
+}
+#wrapper>footer>section{
+    margin: auto;
+    width: 100%;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    max-width: 800px;
+}
