@@ -262,6 +262,22 @@ body{
 #wrapper>#container>#right4>#content>table{
     margin: 8px 18px;
 }
+#wrapper>#container>#right5{
+    background-color: white;
+    float: right;
+    height: 146px;
+    width: 292px;
+    margin-top: -146px;
+}
+#wrapper>#container>#right5>h4{
+    padding: 10px 15px;
+    cursor: default;
+    color: darkgoldenrod;
+}
+#wrapper>#container>#right5>a{
+    padding: 20px 15px;
+    text-decoration: none;
+}
 /*版权模块*/
 #wrapper>footer{
     background-color: black;
